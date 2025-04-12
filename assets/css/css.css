@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(254, 254, 254);
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column;
+}
+
+.cabecalho img{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.caixa {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.inputs label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.inputs input {
+    margin-left: 10px;
+}
+
+button {
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px 15px;
+    margin-left: 35px;
+}
+
+input{
+    border-radius: 4px;
+    height: 40px;
+}
+
+.resul {
+    margin-top: 20px; 
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}

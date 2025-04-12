@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IFRN</title>
+    <link rel="stylesheet" href="assets/css/css.css">
+</head>
+<body>
+    <div class="cabecalho">
+        <img src="assets/img/logoifrn.png">
+    </div>
+
+    <div class="caixa">
+        
+        <div class="inputs">
+            <p style="text-align: center; font-size: 20px;">Calculadora de média bimestral</p>
+
+            <label>Bimestre 1: <input type="number" id="nota1" placeholder="Nota 1" max="100"></label><br>
+            <label>Bimestre 2: <input type="number" id="nota2" placeholder="Nota 2" max="100"></label><br>
+            <label>Bimestre 3: <input type="number" id="nota3" placeholder="Nota 3" max="100"></label><br>
+            <label>Bimestre 4: <input type="number" id="nota4" placeholder="Nota 4" max="100"></label><br>
+            <button onclick="guardarNotas()">Enviar</button>
+            <button onclick="recomecar()">Limpar</button>
+
+        </div>
+    
+    
+    </div>
+    <div class="resul">
+        <p id="resultado">ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</p>
+    </div>
+
+    
+</body>
+<script src="assets/javascript/script.js"></script>
+</html>
